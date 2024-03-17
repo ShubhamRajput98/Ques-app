@@ -152,6 +152,7 @@ const Questions = () => {
               setReset(!reset);
               setCount(0);
               setRightAnswers(0);
+              setLoader(true);
             }}
           >
             Restart
